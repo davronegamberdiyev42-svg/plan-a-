@@ -1,0 +1,21 @@
+{
+  "release": "50.2.0-plan-a",
+  "target_repository": "plan-a-",
+  "base": "Stage 36 full deploy source; preserves original 84-day application and existing main-app storage key",
+  "audio_asset_source": "Stage 33.1 resource deploy bundle; 84 MP3s and icon assets",
+  "stage40_original_binary_available": false,
+  "stage40_sha256_record": "b906aa41a07acad20e8df373d18683b0dbc44b93ffee1afc8d4d887fad2651d1",
+  "stages_41_47": "feature logic and UI reconstructed from preserved audits, specifications, QA reports, acceptance notes and Stage 47 resource datasets; exact historical patch commits are unavailable",
+  "stages_48_50": "vocabulary coverage and release requirements reconstructed from retained coverage JSON, roadmap and QA reports; implemented local-first vocabulary, adaptive, privacy, media capture and release audit functions",
+  "new_50_2_work": "case-insensitive resource filters; state schema migration; IndexedDB MediaRecorder clip capture with individual playback/download/delete; privacy/data inventory and reset; import validation; modal focus restore/trap; reduced-motion/focus states; corrected daily core dual IPA coverage",
+  "compatibility": "original Stage36 application and legacy storage key preserved; final Studio uses independent localStorage state and IndexedDB media store",
+  "github_pages_base": "relative ./ paths; intended for repository plan-a- root",
+  "score_disclaimer": "internal practice index only; not official IELTS band; score outcome 8.0 or 9.0 is not promised",
+  "limitations": [
+    "Exact Stage 40 deploy archive is unavailable; only its checksum record is preserved.",
+    "Exact original Stage 41–50 patch binaries/commit history are unavailable; this is a reconstructed integration, not byte-for-byte historical source reproduction.",
+    "Browser UI automation is blocked by ERR_BLOCKED_BY_ADMINISTRATOR in the build environment.",
+    "Physical Android microphone, installability and hosted offline acceptance remain untested.",
+    "Standalone HTML embeds Final Studio CSS/JS/JSON but uses the adjacent audio/ folder for MP3 playback."
+  ]
+}
